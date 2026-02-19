@@ -1,0 +1,238 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production builds
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+
+# Logs específicos do projeto
+server.log
+frontend.log
+chat-server.log
+monitor.log
+
+# Docker
+.dockerignore
+
+# Cache
+.cache/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+.jest/
+
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# Uploads
+uploads/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.p12
+
+# Environment specific
+.env.production
+.env.staging
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# Logs
+logs/
+*.log
+
+# Cache
+.cache/
+.next/
+.nuxt/
+
+# Build output
+dist/
+build/
+out/
+
+# Dependencies (if not using package manager)
+vendor/
+bower_components/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+.tmp/
+.temp/
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output
+
+# Environment
+.env
+.env.*
+
+# Docker
+.dockerignore
+
+# Cache
+.cache/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+.jest/
+
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# Uploads
+uploads/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.p12
+
+# Environment specific
+.env.production
+.env.staging
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output
+
+# Environment
+.env
+.env.*
+
+# Docker
+.dockerignore
+
+# Cache
+.cache/
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+.jest/
+
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# Uploads
+uploads/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.p12
+
+# Environment specific
+.env.production
+.env.staging
+
+# Temporary files
+tmp/
+*.tmp
+*.temp

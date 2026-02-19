@@ -1,0 +1,223 @@
+import ContactForm from './components/ContactForm';
+import ChatWidget from './components/ChatWidget';
+import CustomerArea from './components/CustomerAreaSimple';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      {/* Hero Section */}
+      <section className="hero">
+        <div className="hero-bg">
+          <div className="gradient-orb"></div>
+          <div className="gradient-orb orb-2"></div>
+          <div className="gradient-orb orb-3"></div>
+        </div>
+        
+        <div className="hero-content">
+          <div className="hero-badge">✨ Novo Design</div>
+          <h1 className="hero-title">
+            OpenClaw <span className="gradient-text">Services</span>
+          </h1>
+          <p className="hero-subtitle">
+            Transformando sua empresa com soluções OpenClaw de ponta
+          </p>
+          
+          <div className="hero-buttons">
+            <button className="btn primary-btn">
+              <span>🚀 Começar Agora</span>
+              <div className="btn-shine"></div>
+            </button>
+            <button className="btn secondary-btn">
+              <span>💡 Ver Demonstração</span>
+            </button>
+          </div>
+          
+          <div className="hero-stats">
+            <div className="stat">
+              <div className="stat-number">100+</div>
+              <div className="stat-label">Clientes Satisfeitos</div>
+            </div>
+            <div className="stat">
+              <div className="stat-number">24/7</div>
+              <div className="stat-label">Suporte Premium</div>
+            </div>
+            <div className="stat">
+              <div className="stat-number">99.9%</div>
+              <div className="stat-label">Uptime Garantido</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Section */}
+      <section className="services">
+        <div className="container">
+          <div className="section-header">
+            <div className="section-badge">Nossos Serviços</div>
+            <h2 className="section-title">Soluções <span className="gradient-text">Completas</span> para seu Negócio</h2>
+            <p className="section-description">
+              Oferecemos serviços especializados que transformam sua operação com OpenClaw
+            </p>
+          </div>
+          
+          <div className="services-grid">
+            <div className="service-card">
+              <div className="service-icon">🚀</div>
+              <div className="service-content">
+                <h3>Instalação Profissional</h3>
+                <p>Setup completo e otimizado para máxima performance</p>
+                <ul className="service-features">
+                  <li>✓ Configuração segura</li>
+                  <li>✓ Integração total</li>
+                  <li>✓ Performance otimizada</li>
+                </ul>
+                <div className="service-price">A partir de R$ 500</div>
+              </div>
+            </div>
+            
+            <div className="service-card">
+              <div className="service-icon">🛠️</div>
+              <div className="service-content">
+                <h3>Suporte 24/7</h3>
+                <li>✓ Suporte especializado</li>
+                <li>✓ Monitoramento contínuo</li>
+                <li>✓ Atendimento prioritário</li>
+                <div className="service-price">A partir de R$ 200/mês</div>
+              </div>
+            </div>
+            
+            <div className="service-card">
+              <div className="service-icon">💻</div>
+              <div className="service-content">
+                <h3>Desenvolvimento Custom</h3>
+                <li>✓ Agentes sob medida</li>
+                  <li>✓ Automação inteligente</li>
+                  <li>✓ Integração API</li>
+                  <div className="service-price">A partir de R$ 100/h</div>
+              </div>
+            </div>
+            
+            <div className="service-card">
+              <div className="service-icon">🎯</div>
+              <div className="service-content">
+                <h3>Consultoria Estratégica</h3>
+                <p>Roadmap personalizado para crescimento acelerado</p>
+                <ul className="service-features">
+                  <li>✓ Análise completa</li>
+                  <li>✓ Estratégia sob medida</li>
+                  <li>✓ Treinamento da equipe</li>
+                </ul>
+                <div className="service-price">A partir de R$ 150/h</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form Section */}
+      <section className="contact-section">
+        <div className="container">
+          <div className="section-header">
+            <div className="section-badge">Entre em Contato</div>
+            <h2 className="section-title">Solicite uma <span className="gradient-text">Consulta Gratuita</span></h2>
+            <p className="section-description">
+              Nossa equipe especializada entrará em contato em até 24 horas para discutir suas necessidades
+            </p>
+          </div>
+          
+          <ContactForm />
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="cta">
+        <div className="container">
+          <div className="cta-content">
+            <h2>Pronto para <span className="gradient-text">transformar</span> seu negócio?</h2>
+            <p>Deixe nossos especialistas cuidar da implementação enquanto você foca no crescimento</p>
+            <div className="cta-buttons">
+              <button className="btn primary-btn large">
+                <span>📞 Agendar Consulta</span>
+                <div className="btn-shine"></div>
+              </button>
+              <button className="btn secondary-btn large">
+                <span>📄 Baixar Proposta</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Customer Area Section */}
+      <section className="customer-area-section">
+        <div className="container">
+          <div className="section-header">
+            <div className="section-badge">Área do Cliente</div>
+            <h2 className="section-title">Acesse sua <span className="gradient-text">Conta</span></h2>
+            <p className="section-description">
+              Gerencie seus serviços, ordens, suporte e faturas em um só lugar
+            </p>
+          </div>
+          
+          <CustomerArea />
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="footer">
+        <div className="container">
+          <div className="footer-content">
+            <div className="footer-section">
+              <h3>OpenClaw Services</h3>
+              <p>Especialistas em transformação digital com OpenClaw</p>
+              <div className="social-links">
+                <a href="#" className="social-link">🔗</a>
+                <a href="#" className="social-link">📱</a>
+                <a href="#" className="social-link">💼</a>
+              </div>
+            </div>
+            
+            <div className="footer-section">
+              <h4>Serviços</h4>
+              <ul>
+                <li><a href="#">Instalação</a></li>
+                <li><a href="#">Suporte 24/7</a></li>
+                <li><a href="#">Desenvolvimento</a></li>
+                <li><a href="#">Consultoria</a></li>
+              </ul>
+            </div>
+            
+            <div className="footer-section">
+              <h4>Empresa</h4>
+              <ul>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+              </ul>
+            </div>
+            
+            <div className="footer-section">
+              <h4>Contato</h4>
+              <ul>
+                <li>📧 contato@openclawservices.com</li>
+                <li>📱 +55 (11) 91234-5678</li>
+                <li>📍 São Paulo, SP</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div className="footer-bottom">
+            <p>&copy; 2026 OpenClaw Services. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+      
+      {/* Chat Widget */}
+      <ChatWidget />
+    </div>
+  );
+}
+
+export default App;
