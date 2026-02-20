@@ -1,18 +1,6 @@
-{
-  "build": {
-    "command": "cd react-app && npm install && npm run build",
-    "publish": "react-app/dist"
-  },
-  "dev": {
-    "command": "cd react-app && npm install && npm run dev",
-    "port": 5173
-  },
-  "functions": {
-    "server/*": {
-      "included_files": ["server/**/*"]
-    }
-  },
-  "env": {
-    "NODE_ENV": "production"
-  }
-}
+[build]
+  command = "cd react-app && npm install && npm run build"
+  publish = "react-app/dist"
+
+[build.environment]
+  NODE_ENV = "production"
