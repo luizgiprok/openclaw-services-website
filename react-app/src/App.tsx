@@ -1,3 +1,5 @@
+import ScheduleSystem from './components/ScheduleSystemSimple';
+
 function App() {
   return (
     <div>
@@ -41,6 +43,9 @@ function App() {
         <p><strong>Status:</strong> ✅ Online e funcionando</p>
         <p><strong>Data:</strong> 19/02/2026</p>
       </div>
+
+      {/* Sistema de Agendamento */}
+      <ScheduleSystem />
     </div>
   );
 }

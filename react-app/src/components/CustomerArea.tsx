@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './CustomerArea.css';
 
 const CustomerArea: React.FC = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [showLogin, setShowLogin] = useState(true);
   const [loginData, setLoginData] = useState({
     email: '',
@@ -19,7 +18,6 @@ const CustomerArea: React.FC = () => {
     // Simulação de validação
     setTimeout(() => {
       if (loginData.email === 'joao@empresa.com' && loginData.password === '123456') {
-        setIsLoggedIn(true);
         setShowLogin(false);
         console.log('✅ Login realizado com sucesso');
       } else {
@@ -31,7 +29,6 @@ const CustomerArea: React.FC = () => {
   };
 
   const handleLogout = () => {
-    setIsLoggedIn(false);
     setShowLogin(true);
     setLoginData({ email: '', password: '' });
     console.log('👋 Logout realizado');

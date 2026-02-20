@@ -1,0 +1,8 @@
+{
+  "build_settings": {
+    "repo_url": "https://github.com/luizgiprok/openclaw-services-website",
+    "branch": "main",
+    "build_command": "npm run netlify-build",
+    "publish_dir": "react-app/dist"
+  }
+}
